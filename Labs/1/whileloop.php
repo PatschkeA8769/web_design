@@ -1,8 +1,7 @@
 <?php
 $num = 1;
-while ($num <= 5)
-{
-    echo $num . "<br />";
-    $num++;
+while ($num <= 5){
+  echo $num . "<br>";
+  $num++;
 }
 ?>
