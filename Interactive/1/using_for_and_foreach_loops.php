@@ -13,13 +13,13 @@ function IsPrime($n) {
     }
 }
 echo IsPrime(3);
-echo "<br><br>";
+echo '<br><br>';
 $details = array(
-    "name" => "Pete Anderson",
-    "email" => "pete.anderson@ucertify.com",
-    "age" => 34
+    "name" => 'Pete Anderson',
+    "email" => 'pete.anderson@ucertify.com',
+    'age' => 34
 );
 foreach($details as $key => $value) {
-echo $key . " : " . $value . "<br/>";
+echo $key . ' : ' . $value . '<br/>';
 }
 ?>

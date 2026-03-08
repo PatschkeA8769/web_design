@@ -1,6 +1,6 @@
 <?php
 function checkage($age) {
-  $c = $age>=18 ? "Adult" : "Teenager";
+  $c = $age>=18 ? 'Adult' : 'Teenager';
   echo $c;
 }
 echo checkage(23);

@@ -1,6 +1,6 @@
 <?php
-$a="Hello ";
-$b="John";
+$a='Hello ';
+$b='John';
 $c= $a.$b;
 echo $c;
 ?>

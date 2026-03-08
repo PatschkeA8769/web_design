@@ -5,6 +5,6 @@ $prices = array(
   'Spark Plugs' => 4
 );
 foreach ($prices as $key => $value) {
-  echo $key . " - " . $value . "<br>";
+  echo $key . ' - ' . $value . '<br>';
 }
 ?>

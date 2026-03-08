@@ -21,7 +21,7 @@ shuffle($luckynmbr) ;
     <div align="center">
     <?php
     for ($i = 0; $i < 1; $i++) {
-      echo "<h2>" . $luckynmbr[$i] . "</h2>";
+      echo '<h2>' . $luckynmbr[$i] . '</h2>';
     }
     ?>
     </div>
