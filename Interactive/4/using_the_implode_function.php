@@ -1,4 +1,4 @@
 <?php
-$arr=array ('The ', 'best ', 'learning ', 'solution.' );
-echo implode(' ', $arr);
+$arr = array('The ','best ','learning ','solution.');
+echo implode(' ',$arr);
 ?>

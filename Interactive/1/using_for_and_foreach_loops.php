@@ -1,12 +1,12 @@
 <?php 
 function IsPrime($n) {  
-  $c= 1; 
+  $c = 1; 
   for($x=1; $x<$n; $x++) {
         if($n % $x == '0') {
-          $c= $c+ '1';
+          $c = $c+ '1';
         }
     }
-    if ($c== '2') {
+    if($c=='2') {
       return true;
       } else {
       return false;

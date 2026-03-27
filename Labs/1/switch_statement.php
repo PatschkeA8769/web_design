@@ -1,6 +1,6 @@
 <?php
 $day = 'Mon';
-switch ($day) {
+switch($day) {
   case 'Mon':
     echo '<p>The day is Monday.</p>';
     break;

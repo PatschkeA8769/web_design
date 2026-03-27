@@ -3,5 +3,5 @@ $num = 100;
 do {
   echo $num . '<br>';
 }
-while ($num < 1);
+while($num < 1);
 ?>

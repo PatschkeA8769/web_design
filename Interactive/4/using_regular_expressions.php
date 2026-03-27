@@ -2,7 +2,7 @@
 function password_check($password) { 
   $c = 'Your password is strong';
   $d = 'Your password is weak';
-  if (preg_match('/^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).*$/', $password)) {
+  if(preg_match('/^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).*$/', $password)) {
     echo $c;
   } else {
     echo $d;
@@ -11,12 +11,12 @@ function password_check($password) {
 password_check('uC@1234567');
 echo '<br><br>';
 function find_string($str1) { 
-  $c= 'abcdefghijlkmnopqrstuvwzxy';
+  $c = 'abcdefghijlkmnopqrstuvwzxy';
   $pattern = '/ca[$c]e/';
-  $x='found'; 
-  $d='not found';  
+  $x = 'found'; 
+  $d = 'not found';  
   $matches = preg_match_all($pattern, $str1, $array);
-  if ($matches != '0') {
+  if($matches != '0') {
     echo $x;
   } else {
     echo $d;

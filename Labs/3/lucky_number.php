@@ -20,7 +20,7 @@ shuffle($luckynmbr) ;
     <h1>Here's the Lucky Draw result</h1>
     <div align="center">
     <?php
-    for ($i = 0; $i < 1; $i++) {
+    for ($i=0; $i<1; $i++) {
       echo '<h2>' . $luckynmbr[$i] . '</h2>';
     }
     ?>
