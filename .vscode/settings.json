@@ -1,4 +1,4 @@
 {
   "editor.acceptSuggestionOnEnter": "on",
-  "editor.inlineSuggest.enabled": false
+  "editor.inlineSuggest.enabled": true
 }
